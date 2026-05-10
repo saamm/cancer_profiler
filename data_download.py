@@ -2,7 +2,7 @@ import os
 import pandas as pd
 import requests
 
-manifest = pd.read_csv("gdc_manifestBRCA.txt", sep="\t")
+manifest = pd.read_csv("tcga_data/manifest/gdc_manifestBRCA.txt", sep="\t")
 
 os.makedirs("tcga_data", exist_ok=True)
 
