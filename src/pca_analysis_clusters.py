@@ -3,7 +3,7 @@ from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 
 # Load data
-X = pd.read_csv("tcga_data/processed/pathway_scores.csv", index_col=0)
+X = pd.read_csv("tcga_data/processed/pathway_scores_kegg.csv", index_col=0)
 clusters = pd.read_csv("tcga_data/processed/pathway_clusters.csv", index_col=0)
 
 # PCA

@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 
-df = pd.read_csv("tcga_data/processed/pathway_scores.csv", index_col=0)
+df = pd.read_csv("tcga_data/processed/pathway_scores_kegg.csv", index_col=0)
 
 # Normalize
 scaler = StandardScaler()
