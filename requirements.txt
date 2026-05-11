@@ -17,3 +17,6 @@ tqdm>=4.65.0
 
 # API requests (for g:Profiler or other tools)
 requests>=2.31.0
+
+#gene mapping
+mygene
